@@ -445,7 +445,7 @@ Transform:
   m_GameObject: {fileID: 493541487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.79, y: 1.2087121, z: -7.940217}
+  m_LocalPosition: {x: -13.79, y: 1.3587121, z: -7.940217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -583,7 +583,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.79, y: 1.2087121, z: -7.940217}
+  m_LocalPosition: {x: -13.79, y: 1.3587121, z: -7.940217}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -902,7 +902,7 @@ GameObject:
   - component: {fileID: 872144859}
   - component: {fileID: 872144858}
   - component: {fileID: 872144860}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tilemap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +923,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 547883416}
-  - {fileID: 933898111}
   m_Father: {fileID: 685145447}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &872144858
@@ -1383,13 +1382,13 @@ Transform:
   m_GameObject: {fileID: 933898108}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.79, y: -0.17, z: 0.059782982}
+  m_LocalPosition: {x: -13.79, y: -0.02, z: 0.059782982}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1150147281}
   - {fileID: 485118}
-  m_Father: {fileID: 872144857}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &933898113
 Rigidbody2D:
@@ -1453,7 +1452,7 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 1.8, y: 2.2}
   m_Direction: 0
 --- !u!114 &933898116
 MonoBehaviour:
@@ -1468,12 +1467,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
-  jumpPower: 3
+  jumpPower: 4
   rb: {fileID: 933898113}
   groundcheck: {fileID: 1150147281}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 64
 --- !u!114 &933898117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1649,7 +1648,7 @@ Transform:
   m_GameObject: {fileID: 1150147280}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.12, y: -1.76, z: 0}
+  m_LocalPosition: {x: -0.23, y: -1.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1933,3 +1932,4 @@ SceneRoots:
   - {fileID: 685145447}
   - {fileID: 493541490}
   - {fileID: 102230715}
+  - {fileID: 933898111}
