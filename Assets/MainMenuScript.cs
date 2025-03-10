@@ -8,7 +8,7 @@ public class MainMenuScript : MonoBehaviour
     public void OnClickPlay()
     {
         //SceneManager.LoadScene(1);
-        LoadingScreenManager.Instance.SwitchToScene(1);
+        LoadingScreenManager.Instance.SwitchToScene(2);
     }
     void Start()
     {
